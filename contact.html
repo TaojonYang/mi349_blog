@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contact</title>
-</head>
-<body>
-    <h1> Contact Information</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <p>
-        <label>
-            Name:
-            <input type="text">
-        </label>
-    <p>
-        <label>
-            Email:
-            <input type="text">
-        </label>
-    <p>
-        <label for="interview">Reason for Contact:</label>
-        
-            <select name="Reasons for Contact">
-            <option value="Reasons for contact">hi, looking for a contractor, interested in an interview
-            </option> 
-          
-        <textarea id="interview" name="interview" rows="5" cols="33">
-        Open Comments!
-        </textarea>
-        </select>
-        <button> Submit </button>
-    </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact Information</title>
+    </head>
+    <body>
+        <header class="sticky">
+            <h1>Contact Information</h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> </li>
+                    <li> <a href="about.html">About</a> </li>
+                    <li> <a href="contact.html">Contact</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="ContactMe">
+            <h2 id="contact-header">Get in contact with me</h2>
+            <form>
+                <label> Name
+                    <input type="text">
+                </label>
+                <label> Email Address
+                    <input type="email">
+                </label>
+                <label>Reason for contact
+                    <select name="reasons" id="reasons">
+                        <option value="SayingHi">saying hi</option>
+                        <option value="LookingForContractor">looking for a contractor</option>
+                        <option value="InterestedInInterview">interested in an interview</option>
+                    </select>
+                </label>
+                <label> Comment
+                    <input type="text">
+                </label>
+                <button>Submit</button>
+            </form>
+        </section>
+    </body>
+
 </html>
