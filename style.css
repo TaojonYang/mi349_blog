@@ -1,0 +1,105 @@
+html {
+    background: whitesmoke;
+}
+body {
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif, ;
+    margin: 30px;
+    padding: 30px;
+    color: black;
+    border-top: 10px solid #242424;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    margin: 10px 10px;
+    padding: 10px 0px 0px 0px;
+    font-size: 3em;
+}
+
+[id="about-header"] {
+    color: black;
+}
+
+[id="contact-header"] {
+    color: black;
+}
+
+h3 {
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+p {
+    line-height: 1.35em;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.text_box {
+    margin: 10px 0px;
+    padding: 0px 0px;
+    width: 90%;
+    max-width: 900px;
+    text-align: left;
+}
+[id="selfie"] {
+    scale: 65%;
+    position: relative;
+    top: -100px;
+    left: 0px;
+}
+figure {
+    float: right;
+    margin: 5px 5px;
+}
+
+image {
+    margin: 0 auto;
+    padding: 0 0 0 10px; 
+}
+
+.author {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#blog, #AboutMe, #ContactMe {
+    border-top: 3px dotted wheat;
+}
+
+.blog-post {
+    padding-left: 10px;
+    border-bottom: 3px dotted lightgray;
+    padding-bottom: 15px;
+}
+.source {
+    margin: 10px 0px 0px;
+}
+
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.sticky {
+    background: wheat;
+    position: sticky;
+    top: 0;
+}
+form {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+label {
+    padding-right: 10px;
+}
